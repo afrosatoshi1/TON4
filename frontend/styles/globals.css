@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{ --bg:#f6f9ff; --primary:#1E90FF; }
+body{ background:var(--bg); }
+.shadow-soft{ box-shadow: 0 8px 20px rgba(0,0,0,0.06); }
